@@ -48,7 +48,6 @@ fetch(URL)
                columns.push(downloadUrl);
                return;
              } // BIM
-             // TODO: HANDLE CASE OF NO BIM FILE
              if (!MATCH_IES.test(downloadUrl)) return;
              ies.push(downloadUrl);
            });
